@@ -1,0 +1,365 @@
+{
+	"info": {
+		"_postman_id": "ef4a66ba-8056-40cc-82d6-653d8f093383",
+		"name": "COM470-buggycars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48365808",
+		"_collection_link": "https://pilotomendez777-8099063.postman.co/workspace/COM40-USFX~f93f8ea6-7167-4d6d-88f3-dc43b6d6b4e1/collection/48365808-ef4a66ba-8056-40cc-82d6-653d8f093383?action=share&source=collection_link&creator=48365808"
+	},
+	"item": [
+		{
+			"name": "Modelo Aventador",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmYTIxNDM0Ny02MmNlLTQyNGItYWUzMi1mMDFjNGU4ZmY3NjEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiY2U5MDJlMmUtODE2NS00ZDJiLWJjMTUtZDg2YzYyNDgxNzNiIiwiZXZlbnRfaWQiOiI5ZWRiOTQ0ZC00MzJhLTQzYzUtYWIzYi0xODgzYjVlYmViNDYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzczMTg3MjcyLCJleHAiOjE3NzMxOTA4NzIsImlhdCI6MTc3MzE4NzI3MiwianRpIjoiZjYyZDc1ZjUtNzljMy00M2M2LThlZDYtOTA0OTVlNmU2ZTkwIiwidXNlcm5hbWUiOiJNZW5kZXo3NzcifQ.kkfmwoF_4PuyFDwXaQE0jXcYSaeifqYPJKC7EniBZPiFs7u6zovXSkNORNRIyA3obBKaD_-v73sp5uAMbLBU0FmOBu8NHpxap_NSf_4AJfimBQanGmRoEd77U4V5MexfB5dtpxTaaSvMRevdOHghpO831cPxZmmjMLwxvVLbuW5nF2DuCIGqkrBWPe8CR9Y_pP82vOLBCaspVoUpKx6Uv3KiTz8llbm2fq-KpkztlRgU0l-AsDKfaGpygYOp3XRr8X-hCZ69tjR_XhSVPPK0vLoThsNAmeOVgZOWWwtL-MJOS6oKESborZpitcvMOm2HuhE1uwvS-gLx0UxuhaC5kA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/ckl2phsabijs71623vk0%7Cckl2phsabijs71623vlg",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models",
+						"ckl2phsabijs71623vk0%7Cckl2phsabijs71623vlg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Modelos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmYTIxNDM0Ny02MmNlLTQyNGItYWUzMi1mMDFjNGU4ZmY3NjEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiY2U5MDJlMmUtODE2NS00ZDJiLWJjMTUtZDg2YzYyNDgxNzNiIiwiZXZlbnRfaWQiOiI5ZWRiOTQ0ZC00MzJhLTQzYzUtYWIzYi0xODgzYjVlYmViNDYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzczMTg3MjcyLCJleHAiOjE3NzMxOTA4NzIsImlhdCI6MTc3MzE4NzI3MiwianRpIjoiZjYyZDc1ZjUtNzljMy00M2M2LThlZDYtOTA0OTVlNmU2ZTkwIiwidXNlcm5hbWUiOiJNZW5kZXo3NzcifQ.kkfmwoF_4PuyFDwXaQE0jXcYSaeifqYPJKC7EniBZPiFs7u6zovXSkNORNRIyA3obBKaD_-v73sp5uAMbLBU0FmOBu8NHpxap_NSf_4AJfimBQanGmRoEd77U4V5MexfB5dtpxTaaSvMRevdOHghpO831cPxZmmjMLwxvVLbuW5nF2DuCIGqkrBWPe8CR9Y_pP82vOLBCaspVoUpKx6Uv3KiTz8llbm2fq-KpkztlRgU0l-AsDKfaGpygYOp3XRr8X-hCZ69tjR_XhSVPPK0vLoThsNAmeOVgZOWWwtL-MJOS6oKESborZpitcvMOm2HuhE1uwvS-gLx0UxuhaC5kA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar autos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmYTIxNDM0Ny02MmNlLTQyNGItYWUzMi1mMDFjNGU4ZmY3NjEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiYjMxMTk1ZTAtOWI4NC00YjJhLThhYmEtZjZmOTQ3OTk5M2U1IiwiZXZlbnRfaWQiOiJhNWU5ZGNiYy00NWQ0LTQ0MmItYjk2MS01ZjgzYzkyMGUwMmMiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzczMTg1NDI1LCJleHAiOjE3NzMxODkwMjUsImlhdCI6MTc3MzE4NTQyNSwianRpIjoiOWYzZDgwODgtNTRkNC00M2U3LTk0MmYtNzIxOTY0OWJjYTIxIiwidXNlcm5hbWUiOiJNZW5kZXo3NzcifQ.c29tCQfHoqB0uxWMMLckJHMgggRA93hpzOPi38zRFcog6xH6sRrOl1N-ASzg52mjnKCEPP4GMbrisWK3IJQSnG5NAsZ6LMNB3fYQgY0IVgAkM79TY3ACWjBCi1rfP3ju54B47LuHq8_JVqzyTv3FU8CKmZAxab9JLyMcWVuHDFErqeEDtDIuyr6AQthtCuW4g8-4ZDmowYMess07pVWXDBZOH8Iudypo3rGLA2rCL5v1G4BxwFGciHypUHV66DVwC7H8uKmEyzVakpsKYgGKgJA-RKV7GQGuqnuopq3Z44IGx6khm38GaDWBPvLKvqQLpGlmQttH7Ir0-422Cgz6QA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://buggy.justtestit.org/models",
+					"protocol": "https",
+					"host": [
+						"buggy",
+						"justtestit",
+						"org"
+					],
+					"path": [
+						"models"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modelo Lamborghini",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmYTIxNDM0Ny02MmNlLTQyNGItYWUzMi1mMDFjNGU4ZmY3NjEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiY2U5MDJlMmUtODE2NS00ZDJiLWJjMTUtZDg2YzYyNDgxNzNiIiwiZXZlbnRfaWQiOiI5ZWRiOTQ0ZC00MzJhLTQzYzUtYWIzYi0xODgzYjVlYmViNDYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzczMTg3MjcyLCJleHAiOjE3NzMxOTA4NzIsImlhdCI6MTc3MzE4NzI3MiwianRpIjoiZjYyZDc1ZjUtNzljMy00M2M2LThlZDYtOTA0OTVlNmU2ZTkwIiwidXNlcm5hbWUiOiJNZW5kZXo3NzcifQ.kkfmwoF_4PuyFDwXaQE0jXcYSaeifqYPJKC7EniBZPiFs7u6zovXSkNORNRIyA3obBKaD_-v73sp5uAMbLBU0FmOBu8NHpxap_NSf_4AJfimBQanGmRoEd77U4V5MexfB5dtpxTaaSvMRevdOHghpO831cPxZmmjMLwxvVLbuW5nF2DuCIGqkrBWPe8CR9Y_pP82vOLBCaspVoUpKx6Uv3KiTz8llbm2fq-KpkztlRgU0l-AsDKfaGpygYOp3XRr8X-hCZ69tjR_XhSVPPK0vLoThsNAmeOVgZOWWwtL-MJOS6oKESborZpitcvMOm2HuhE1uwvS-gLx0UxuhaC5kA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "username",
+							"value": "nose",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "Hola123$$",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "2t1mutgc4auiuhocqimj2ct0h8n",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/ckl2phsabijs71623vk0?modelsPage=1",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"makes",
+						"ckl2phsabijs71623vk0"
+					],
+					"query": [
+						{
+							"key": "modelsPage",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comentarios Diablo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmYTIxNDM0Ny02MmNlLTQyNGItYWUzMi1mMDFjNGU4ZmY3NjEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiY2U5MDJlMmUtODE2NS00ZDJiLWJjMTUtZDg2YzYyNDgxNzNiIiwiZXZlbnRfaWQiOiI5ZWRiOTQ0ZC00MzJhLTQzYzUtYWIzYi0xODgzYjVlYmViNDYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzczMTg3MjcyLCJleHAiOjE3NzMxOTA4NzIsImlhdCI6MTc3MzE4NzI3MiwianRpIjoiZjYyZDc1ZjUtNzljMy00M2M2LThlZDYtOTA0OTVlNmU2ZTkwIiwidXNlcm5hbWUiOiJNZW5kZXo3NzcifQ.kkfmwoF_4PuyFDwXaQE0jXcYSaeifqYPJKC7EniBZPiFs7u6zovXSkNORNRIyA3obBKaD_-v73sp5uAMbLBU0FmOBu8NHpxap_NSf_4AJfimBQanGmRoEd77U4V5MexfB5dtpxTaaSvMRevdOHghpO831cPxZmmjMLwxvVLbuW5nF2DuCIGqkrBWPe8CR9Y_pP82vOLBCaspVoUpKx6Uv3KiTz8llbm2fq-KpkztlRgU0l-AsDKfaGpygYOp3XRr8X-hCZ69tjR_XhSVPPK0vLoThsNAmeOVgZOWWwtL-MJOS6oKESborZpitcvMOm2HuhE1uwvS-gLx0UxuhaC5kA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models",
+						"ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Votar autos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmYTIxNDM0Ny02MmNlLTQyNGItYWUzMi1mMDFjNGU4ZmY3NjEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiY2U5MDJlMmUtODE2NS00ZDJiLWJjMTUtZDg2YzYyNDgxNzNiIiwiZXZlbnRfaWQiOiI5ZWRiOTQ0ZC00MzJhLTQzYzUtYWIzYi0xODgzYjVlYmViNDYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzczMTg3MjcyLCJleHAiOjE3NzMxOTA4NzIsImlhdCI6MTc3MzE4NzI3MiwianRpIjoiZjYyZDc1ZjUtNzljMy00M2M2LThlZDYtOTA0OTVlNmU2ZTkwIiwidXNlcm5hbWUiOiJNZW5kZXo3NzcifQ.kkfmwoF_4PuyFDwXaQE0jXcYSaeifqYPJKC7EniBZPiFs7u6zovXSkNORNRIyA3obBKaD_-v73sp5uAMbLBU0FmOBu8NHpxap_NSf_4AJfimBQanGmRoEd77U4V5MexfB5dtpxTaaSvMRevdOHghpO831cPxZmmjMLwxvVLbuW5nF2DuCIGqkrBWPe8CR9Y_pP82vOLBCaspVoUpKx6Uv3KiTz8llbm2fq-KpkztlRgU0l-AsDKfaGpygYOp3XRr8X-hCZ69tjR_XhSVPPK0vLoThsNAmeOVgZOWWwtL-MJOS6oKESborZpitcvMOm2HuhE1uwvS-gLx0UxuhaC5kA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"comment\": \"Provando la votación\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg/vote",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models",
+						"ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg",
+						"vote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ver perfil",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmYTIxNDM0Ny02MmNlLTQyNGItYWUzMi1mMDFjNGU4ZmY3NjEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiY2U5MDJlMmUtODE2NS00ZDJiLWJjMTUtZDg2YzYyNDgxNzNiIiwiZXZlbnRfaWQiOiI5ZWRiOTQ0ZC00MzJhLTQzYzUtYWIzYi0xODgzYjVlYmViNDYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzczMTg3MjcyLCJleHAiOjE3NzMxOTA4NzIsImlhdCI6MTc3MzE4NzI3MiwianRpIjoiZjYyZDc1ZjUtNzljMy00M2M2LThlZDYtOTA0OTVlNmU2ZTkwIiwidXNlcm5hbWUiOiJNZW5kZXo3NzcifQ.kkfmwoF_4PuyFDwXaQE0jXcYSaeifqYPJKC7EniBZPiFs7u6zovXSkNORNRIyA3obBKaD_-v73sp5uAMbLBU0FmOBu8NHpxap_NSf_4AJfimBQanGmRoEd77U4V5MexfB5dtpxTaaSvMRevdOHghpO831cPxZmmjMLwxvVLbuW5nF2DuCIGqkrBWPe8CR9Y_pP82vOLBCaspVoUpKx6Uv3KiTz8llbm2fq-KpkztlRgU0l-AsDKfaGpygYOp3XRr8X-hCZ69tjR_XhSVPPK0vLoThsNAmeOVgZOWWwtL-MJOS6oKESborZpitcvMOm2HuhE1uwvS-gLx0UxuhaC5kA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"users",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar perfil",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJmYTIxNDM0Ny02MmNlLTQyNGItYWUzMi1mMDFjNGU4ZmY3NjEiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiY2U5MDJlMmUtODE2NS00ZDJiLWJjMTUtZDg2YzYyNDgxNzNiIiwiZXZlbnRfaWQiOiI5ZWRiOTQ0ZC00MzJhLTQzYzUtYWIzYi0xODgzYjVlYmViNDYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzczMTg3MjcyLCJleHAiOjE3NzMxOTA4NzIsImlhdCI6MTc3MzE4NzI3MiwianRpIjoiZjYyZDc1ZjUtNzljMy00M2M2LThlZDYtOTA0OTVlNmU2ZTkwIiwidXNlcm5hbWUiOiJNZW5kZXo3NzcifQ.kkfmwoF_4PuyFDwXaQE0jXcYSaeifqYPJKC7EniBZPiFs7u6zovXSkNORNRIyA3obBKaD_-v73sp5uAMbLBU0FmOBu8NHpxap_NSf_4AJfimBQanGmRoEd77U4V5MexfB5dtpxTaaSvMRevdOHghpO831cPxZmmjMLwxvVLbuW5nF2DuCIGqkrBWPe8CR9Y_pP82vOLBCaspVoUpKx6Uv3KiTz8llbm2fq-KpkztlRgU0l-AsDKfaGpygYOp3XRr8X-hCZ69tjR_XhSVPPK0vLoThsNAmeOVgZOWWwtL-MJOS6oKESborZpitcvMOm2HuhE1uwvS-gLx0UxuhaC5kA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Mendez777\",\r\n  \"firstName\": \"Alex\",\r\n  \"lastName\": \"Mendez\",\r\n  \"gender\": \"male\",\r\n  \"age\": 23,\r\n  \"address\": \"\",\r\n  \"phone\": \"\",\r\n  \"hobby\": \"\",\r\n  \"currentPassword\": \"12398028Ch@\",\r\n  \"newPassword\": \"3639672Ch@\",\r\n  \"confirmPassword\": \"3639672Ch@\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"users",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
